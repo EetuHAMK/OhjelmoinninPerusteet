@@ -5,7 +5,8 @@ public class DoWhile {
 	public static void main(String[] args) {
 
 		Scanner in = new Scanner(System.in);
-
+	
+	// Commit 2
 	// While:
 		int laskuri = 0;
 
