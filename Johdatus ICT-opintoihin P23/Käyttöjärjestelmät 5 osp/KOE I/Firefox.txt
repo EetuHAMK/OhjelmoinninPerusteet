@@ -1,0 +1,6 @@
+if ($firefoxRunning) {
+    Write-Host "Onnittelut hyvästä selainvalinnasta! Firefox käynnistyy..."
+} else {
+    Write-Host "Firefox ei ole käynnissä. Käynnistä Firefox."
+    Start-Process -FilePath "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Firefox.exe"
+}
