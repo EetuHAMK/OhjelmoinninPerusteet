@@ -3,6 +3,7 @@ public class Ikaharjoitus {
     public static void main(String[] args) {
         int ika = 18;
 
+	// Commit 3
         // Tulostusehdot
 
         if (ika >= 0 && ika < 18) 
